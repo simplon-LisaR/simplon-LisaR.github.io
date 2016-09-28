@@ -1,0 +1,34 @@
+$titre: #FFFFFF;
+$police: cursive;
+
+main {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+margin: auto;
+padding: 10px;
+width: 850px;
+background-color: #C8AD7F;
+text-align: justify;
+box-sizing: border-box;
+font-family: $police;
+}
+
+h1 {
+  color: $titre;
+  font-family: $police;
+  font-variant: small-caps;
+}
+
+h2 {
+  color: $titre;
+}
+
+h3 {
+  color: $titre;
+}
+
+h4 {
+  color: $titre;
+}
