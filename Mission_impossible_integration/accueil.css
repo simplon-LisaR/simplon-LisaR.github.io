@@ -1,0 +1,94 @@
+body{
+  background-color: #FFFFFF;
+  margin: 20px;
+  padding: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.circle.multi-line{
+    margin:10px;
+    width:120px;
+    height:120px;
+    text-align:center;
+    border: solid #FF9F24;
+    border-radius:100px;
+    line-height:30px;
+    height:90px;
+    padding-top:30px;
+}
+
+ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+li {
+ margin-left:20px;
+ float:left;
+ }
+ul li a {
+ float:left;
+ width:100px;
+ color:#888785;
+ text-align:center;
+ padding:5px;
+ text-decoration: none;
+ font-family: 'Abel', sans-serif;
+ font-size: 16px;
+ }
+
+ ul li a:hover {
+   color: #A2CC01;
+ }
+
+ .annonce {
+    margin-left: 507px;
+    margin-top: -620px;
+    color: #A2CC01;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+ }
+
+.bouteille img {
+align-content: center;
+margin-left: 150px;
+margin-top:30px;
+}
+
+.citrons img{
+  margin-left: 340px;
+  margin-top: -231px;
+}
+
+.bouton a {
+display:block;
+width:200px;
+line-height:45px;
+text-align:center;
+vertical-align:middle;
+background:#A2CC01;
+color:white;
+text-decoration:none;
+font-size: 25px;
+}
+.bouton a:hover {
+background:#CECECE;
+}
+
+.circle2.multi-line{
+    width:120px;
+    height:120px;
+    text-align:center;
+    background:#E1CE9A;
+    border-radius:100px;
+    line-height:30px;
+    height:90px;
+    padding-top:30px;
+    color: white;
+    margin-left: -189px;
+    z-index: 3;
+    position: absolute;
+    margin-top: -30px;
+}
