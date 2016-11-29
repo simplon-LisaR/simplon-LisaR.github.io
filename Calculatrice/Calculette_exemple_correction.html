@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculette EXEMPLE & CORRECTION</title>
+
+<script type="text/javascript">
+
+// récupérer une opération
+
+var operation = prompt('operation : + - * /');
+//prompt est toujours utilisé pour récupérer une information, propre au JS.
+
+// récupérer une 1ère valeur
+
+var valeur1 = parseInt(prompt('valeur1? '));
+
+// récupérer une 2ème valeur
+
+var valeur2 = parseInt(prompt('valeur2? '));
+
+// calculer le résultat de l'opération
+
+// Si les valeurs numériques sont invalides.
+if( isNaN( valeur1 ) == true || isNaN( valeur2 ) == true ) {
+  // Le == true peut être enlevé quand on sait que true est égal à true et false est égal à false. Il s'agit de double négation.
+  //isNaN n'est pas un nombre, true si c'est un nombre et false si c'est pas un nombre.
+  alert('valeurs invalides');
+} else { //sinon
+  var resultat ;
+// Je déclare au départ à l'opération qu'il y aura potentiellement un résultat, à la place de le réécrire à chaque fois après les opérations.
+
+  /*if(operation == '+')
+    resultat = valeur1 + valeur2;
+  //parseInt permet de transformer une chaîne de caractères en nombres. Il permet d'assurer des types de données.
+  //parseFloat pour les valeurs décimales.
+  else if(operation == '-')
+    resultat = valeur1 - valeur2;
+  else if(operation == '*')
+    resultat = valeur1 * valeur2;
+  else if(operation == '/')
+    resultat = valeur1 / valeur2;
+  else
+    alert('operation invalide'); //si l'utilisateur met autre chose que "+,-,*,/".*/
+
+    switch (operation) {
+      case '+':
+        resultat = valeur1 + valeur2;
+        break;
+      case '-':
+      resultat = valeur1 - valeur2;
+        break;
+      case '*':
+      resultat = valeur1 * valeur2;
+        break;
+      case '/':
+      resultat = valeur1 / valeur2;
+        break;
+      default:
+        alert('operation invalide');
+    }
+
+// affiche le résultat
+/*if( resultat ) // si le résultat existe et a une valeur.
+  alert('resultat :' + resultat);*/
+
+alert( resultat ? 'resultat :' + resultat : 'Calcul invalide' );
+}
+
+  </script>
