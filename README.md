@@ -1,4 +1,4 @@
-# simplon-LisaR.github.io
+# GitHub Page | Projets réalisés pour l'école Simplon | simplon-LisaR.github.io
 
 AirBnB : Reproduire la page d'accueil du site AirBnb en HTML5 & CSS3.
 
