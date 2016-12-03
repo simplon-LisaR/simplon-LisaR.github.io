@@ -4,8 +4,6 @@ AirBnB : Reproduire la page d'accueil du site AirBnb en HTML5 & CSS3.
 
 Calculatrice : Créer une calculatrice en JavaScript.
 
-CanvasDrawing : Projet personnel. Création d'une application de dessin en Canvas JavaScript, avec jQuery & SCSS.
-
 Memo : Création d'un jeu "Memory" en JavaScript.
 
 Mission_impossible_intégration : Défi en temps limité. Reproduction de 3 pages d'un site web en HTML5 & CSS3.
