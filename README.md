@@ -14,3 +14,4 @@ slideshow_webdesign : Création d'un carousel en JavaScript pour une page de pr�
 
 transitions_en_css : Projet collectif. Création d'une page web qui présente les différentes transitions existantes pour le CSS. Page créée en HTML5 & CSS3 avec jQuery.
 
+maquette_simplon_inte : Création d'une page web à partir d'une maquette PSD Photoshop; à ouvrir avec Google Chrome.
