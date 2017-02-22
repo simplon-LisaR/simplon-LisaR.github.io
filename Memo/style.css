@@ -1,3 +1,7 @@
+body {
+    margin: 0 auto;
+}
+
 .cartes, .Back, .Front, .Perdu {
     background-repeat: no-repeat;
     background-position: center center;
