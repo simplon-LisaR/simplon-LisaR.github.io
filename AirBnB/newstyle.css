@@ -1,0 +1,225 @@
+* {
+  text-decoration: none;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+  margin: 0px auto;
+  padding: 0px auto;
+  background-color: #f1f1f1;
+  display: block;
+}
+
+video {
+  position: absolute;
+  width:100%;
+  z-index: 5;
+}
+
+section {
+  margin-top: 37em;
+  z-index: 10;
+}
+
+.header h1 {
+  position:absolute;
+  width:100%;
+  z-index:5;
+  text-align: center;
+  color: white;
+  margin-top: 20%;
+}
+
+.header h2 {
+  position: absolute;
+  width:100%;
+  z-index:5;
+  text-align: center;
+  color: white;
+  margin-top:25%;
+}
+
+.header a {
+  color: white;
+}
+
+.logo img {
+  position: absolute;
+  margin-top: 1em;
+  width: 8%;
+  height: auto;
+  z-index: 10;
+}
+
+.nav-link {
+  margin-left: 60%;
+  padding-top: 1%;
+  width: 40%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  z-index: 10;
+}
+
+.nav-link a {
+  padding: 10px 10px 10px 10px;
+  z-index: 5;
+}
+
+.nav-link a:nth-last-of-type(4) {
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 10px 15px 10px 15px;
+  z-index:5;
+}
+
+.formulaire-champ {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  height: 3em;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.formulaire-champ input {
+  border: 1px grey solid;
+  border-right: none;
+  border-left: none;
+  box-shadow: none;
+  z-index: 5;
+}
+.formulaire-champ input:nth-of-type(1) {
+  border-left: 1px grey solid;
+  z-index: 5;
+}
+.formulaire-champ select {
+  border: 1px grey solid;
+  background-color: white;
+  border-left: none;
+  border-right: none;
+  z-index: 5;
+}
+.formulaire-champ button {
+  color: white;
+  width: 10em;
+  background-color: #ff003f;
+  border: none;
+  z-index: 5;
+}
+#formulaire {
+  position: relative;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  margin-top: 45.2%;
+}
+#formulaire img {
+  z-index: 5;
+}
+
+#revenu {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+
+}
+#revenu img {
+  width: 80%;
+  height: 80%;
+  margin-left: 5%;
+}
+
+#revenu-text {
+  width: 40%;
+  background-color: white;
+  margin-right: 5%;
+  color: grey;
+}
+
+#revenu-text h1 {
+  padding-top: 15%;
+  padding-left: 10%;
+  position: relative;
+  font-size: 20px;
+  margin-top: 5%;
+
+}
+#revenu-text p {
+  padding-top: 5%;
+  padding-left: 10%;
+  position: relative;
+  text-align: left;
+  font-size: 15px;
+  margin-top: 8%;
+}
+
+.myButton {
+  margin-top: 5em;
+  margin-left: 18%;
+	background-color:#00a8ba;
+	border:1px solid #00a8ba;
+	display:inline-block;
+	cursor:pointer;
+	color:#fff;
+	font-size:13px;
+	font-weight:bold;
+	padding:4% 15%;
+	text-decoration:none;
+}
+
+#lieu  {
+  margin-top: 4%;
+  margin-bottom: 3%;
+  text-align: center;
+  color: grey;
+}
+
+#lieu-img {
+  margin-left: 1.17em;
+  max-width: 70.5em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 0;
+  padding-bottom: 10%;
+}
+
+#lieu-img img {
+  width: 33%;
+  height: 33%;
+  justify-content: space-between;
+  padding-left: 4.4%;
+}
+
+#lieu-description {
+  padding-top: 7%;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  color: #FFF;
+  margin-right: 4.8em;
+}
+
+#lieu-description h1:nth-of-type(1) {
+  padding-left: 2.85em;
+}
+
+#lieu-description h1:nth-of-type(2) {
+  padding-left: 10%;
+  padding-right: 14%;
+}
+
+#lieu-description h1:nth-of-type(3) {
+  margin-right: 2%;
+}

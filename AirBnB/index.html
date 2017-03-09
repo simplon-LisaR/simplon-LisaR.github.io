@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="newstyle.css" rel="stylesheet" type="text/css">
+  <title>AirBnB</title>
+</head>
+
+<body>
+  <style media="screen">
+  @media only screen and (max-width: 1000px) {
+    .myButton{
+      margin-left: 10%;
+      margin-top: 2.5em;
+    }
+    section {
+      margin-top: 25.1em;
+    }
+    #revenu img {
+      margin-left: 3%;
+    }
+    #revenu-text {
+      margin-right: 3%;
+    }
+
+    #lieu-img img {
+      padding-left: 0%;
+      max-width: 30%;
+      margin-left: 1%;
+    }
+
+    #lieu-img img:nth-of-type(1) {
+      margin-right: 2%;
+      padding-right: 0.5%;
+    }
+
+    #lieu-img img:nth-of-type(2) {
+      margin-right: 2%;
+      padding-right: 0.5%;
+    }
+
+    #lieu-img img:nth-of-type(3) {
+    margin-right: 2%;
+    }
+
+    #lieu-description h1:nth-of-type(1) {
+      margin-left: 1.2em;
+    }
+
+    #lieu-description h1:nth-of-type(2) {
+      margin-left: 11%;
+    }
+
+    #lieu-description h1:nth-of-type(3) {
+      margin-left: 4.4em;
+    }
+
+    #formulaire {
+    margin-top: 25.1em;
+    }
+
+    .header h1 {
+      margin-top:15%;
+    }
+
+    .header h2 {
+      margin-top: 20%;
+    }
+  }
+  </style>
+
+  <video loop autoplay muted width="100%" >
+    <source src="video/video_airbnb.mp4" type="video/mp4">
+  </video>
+
+        <div class="header">
+          <div class="logo">
+            <img src="images/logo_airbnb.png" alt="logo Airbnb">
+          </div>
+          <div class="nav-link">
+            <a href="#">Devenez hôte</a>
+            <a href="#">Aide</a>
+            <a href="#">Inscription</a>
+            <a href="#">Connexion</a>
+          </div>
+
+          <h1>VIVEZ LÀ-BAS</h1>
+          <h2>Réservez des logements auprès d'hôtes locaux dans plus de 191 pays et vivez là-bas, comme chez vous.</h2>
+        </div>
+
+        <section>
+        <div id="formulaire">
+          <form method="post">
+            <div class="formulaire-champ">
+            <input type="text" placeholder=" Où ?"/>
+            <input placeholder="Arrivée" value/>
+            <input type="text" name="" value="→">
+            <input placeholder="Départ"/>
+            <select class="listeair">
+              <option>1 voyageur</option>
+              <option>2 voyageurs</option>
+              <option>3 voyageurs</option>
+              <option>4 voyageurs</option>
+              <option>5 voyageurs</option>
+              <option>6 voyageurs</option>
+              <option>7 voyageurs</option>
+              <option>8 voyageurs</option>
+              <option>9 voyageurs</option>
+              <option>10 voyageurs</option>
+              <option>11 voyageurs</option>
+              <option>12 voyageurs</option>
+              <option>13 voyageurs</option>
+              <option>14 voyageurs</option>
+              <option>15 voyageurs</option>
+              <option>16+ voyageurs</options>
+            </select>
+            <button id="rechercher" type="button">Rechercher</button>
+          </div>
+          </form>
+        </div>
+
+
+        <div id="revenu">
+          <img src="images/welcome_guest.png"/>
+          <div id="revenu-text">
+            <h1>Ouvrez la porte à un <br>voyageur et a une <br>nouvelle vie</h1>
+            <p>Gagnez de l'argent en accueillant des voyageurs.</p>
+              <a href="index.html" class="myButton">Estimer mes revenus</a>
+          </div>
+        </div>
+
+        <div id="lieu">
+          <h1>Juste pour le week-end</h1>
+          <p>Découvrez de nouveaux logements incroyables près de chez vous.</p>
+        </div>
+
+        <div id="lieu-description">
+          <h1>Bienvenue</h1>
+          <h1>&Agrave;</h1>
+          <h1>Lyon</h1>
+        </div>
+
+
+        <div id="lieu-img">
+          <img src="images/lyon-nuit.png" />
+          <img src="images/lyon-lumiere.png" />
+          <img src="images/lyon-nuit.png" />
+        </div>
+
+      </section>
+
+</body>
+</html>
