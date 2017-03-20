@@ -25,6 +25,7 @@ body {
   flex-direction: row;
   justify-content: center;
   padding-top: 1.5em;
+  margin-left: 7%;
 }
 #logosearch img:nth-of-type(1) {
   padding-left: 55%;
@@ -84,7 +85,7 @@ article {
 }
 
 .button:nth-of-type(1) {
-  margin-left: 35%;
+  margin-left: 32%;
 }
 
 .button2 {
@@ -181,8 +182,7 @@ footer {
   height: 35.8em;
   padding-left: 1em;
 }
-#navfooterlink {
-}
+
 #navfooterlink p {
   padding-bottom: 1em;
   color: #3c9287;
@@ -267,7 +267,6 @@ footer {
   background-color: #c1076c;
   width: 5em;
   height: 2em;
-  border-bottom: 1px solid;
 }
 #googlelike p {
   padding-top: 0.5em;
